@@ -6,19 +6,18 @@ int main() {
     int n, Fibonacci;
     cin >> n;
     if (n >= 2) {
-        cout << "1" << endl;
-        cout << "1" << endl;
-
+    cout <<"1"<<endl;
+    cout <<"1" <<endl;
         while (z <= n) {
             Fibonacci = a + b;
-            cout << Fibonacci << endl;
+            cout<<Fibonacci<<endl;
             b = a;
             a = Fibonacci;
             z = z + 1;
         }
-        cout << endl;
-    } else
-        cout << "Errore";
-
+        cout<<endl;
+    } else {
+        cout << "errore";
+    }
    return 0;
 }
